@@ -1,0 +1,28 @@
+.img-desc{
+  bottom: 5%;
+  padding: 10px;
+  margin: 30px;
+  
+}
+
+.box-modal{
+  background: rgba(0,0,0,0.3);
+  position: fixed;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content{
+  width: 800px;
+  height: 500px;
+  background-image: url(../images/portfolio-1.jpg);
+}
+.modal-content i{
+  font-size: 40px;
+  margin:10px;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="styles/all.min.css" />
+  <!-- Bootstrap  -->
+  <link rel="stylesheet" href="styles/bootstrap.min.css" />
+  <!-- Custome Style -->
+  <link rel="stylesheet" href="styles/style.css" />
+  <!-- Add Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <title>Modal</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row my-4">
+      <div class="col-md-4">
+        <div class="item-content position-relative">
+          <img src="images/portfolio-1.jpg" alt="" srcset="" class="w-100">
+          <div class="img-desc bg-light text-dark bg-light text-dark position-absolute ">
+            <h5>C1</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="item-content position-relative">
+          <img src="images/portfolio-3.jpg" alt="" srcset="" class="w-100">
+          <div class="img-desc bg-light text-dark bg-light text-dark position-absolute ">
+            <h5>C2</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="item-content position-relative">
+          <img src="images/portfolio-4.jpg" alt="" srcset="" class="w-100">
+          <div class="img-desc bg-light text-dark bg-light text-dark position-absolute ">
+            <h5>C3</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="box-modal d-none">
+    <div class="modal-content position-relative bg-warning d-flex flex-row align-items-center justify-content-between">
+      <i class="fa-solid fa-circle-arrow-left"></i>
+      <i class="fa-solid fa-circle-xmark position-absolute top-0 end-0"></i>
+      <i class="fa-solid fa-circle-arrow-right"></i>
+    </div>
+  </div>
+
+  <script src="scripts/index.js"></script>
+</body>
+
+</html>
